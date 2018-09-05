@@ -1,0 +1,93 @@
+#List Hidden Files
+ls -a
+
+#Long Listing of Files
+ls -l
+
+#List Storage Devices
+#In Tree Format
+lsblk
+
+#In List Format
+lsblk -l
+
+#List of Processes
+ps
+
+#Kill any Process
+#Kill a Process with Process ID
+#kill process_id
+kill 1345
+
+#Kill a Process by Name
+kill nginx
+
+#Start, Stop or Restart a Service
+#Note: This Command Reuires Root access use sudo
+#service service_name start
+#service service_name stop
+#service service_name restart
+
+service nginx start
+service nginx stop
+service nginx restart
+
+#Get Ststus of Disk Usage
+du
+
+#List all Avaliable Printers
+#For Active Printers
+lpstat -s
+
+#For All Printers
+lpstat -p
+
+#Print Document on a Printer Via Command Line
+lpr -P printer_name file_name.pdf
+
+#Using gcc compiler
+gcc -o file_name file_name.c
+#Runprogram
+./file_name
+
+#Using g++ compiler
+g++ -o file_name file_name.cpp
+#Runprogram
+./file_name
+
+#using java compiler
+javac file_name.java
+#Run Program
+java file_name
+
+#Check All Network Interfaces
+ifconfig -a
+
+#Check only Active Network Interfaces
+ifconfig
+
+#Enable a Network Interface
+#ifconfig interface_name up
+if config eth0 up
+
+#Disable a Network Interface
+#ifconfig interface_name down
+if config eth0 down
+
+#Assign an IP Address to Network Interface
+ifconfig eth0 40.30.20.10
+
+#Assign a Netmask to Network Interface
+ifconfig eth0 netmask 255.0.0.0
+
+#List of all Networks to the System and From the System
+netstat
+
+#List all TCP Ports
+netstat -at
+
+#Check Up time of system
+uptime
+
+#check CPU Usage
+top
