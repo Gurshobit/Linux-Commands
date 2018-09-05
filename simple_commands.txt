@@ -1,3 +1,5 @@
+# Really Simple Commands in Linux that a Beginner Should Know
+
 #Create New Folder
 mkdir folder_name
 
@@ -72,6 +74,9 @@ locate -b file_name
 #command_name --help
 man mkdir
 mkdir --help
+
+#Display any string
+echo 'Hello World'
 
 #Shutdown System
 shutdown
