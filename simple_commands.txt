@@ -1,5 +1,12 @@
 # Really Simple Commands in Linux that a Beginner Should Know
 
+#Print Operating System, Machine and Kernel Info
+uname
+
+#Run Commands as Super User
+sudo
+#Note: For This Command User Need to enter Root User Password.
+
 #Create New Folder
 mkdir folder_name
 
@@ -11,6 +18,9 @@ cd folder_name
 
 #Create New File
 touch file_name.txt
+
+#View Contents of File
+cat file_name.txt
 
 #Copy Files or Folders
 #Copy Single File
@@ -66,11 +76,25 @@ df -h
 #wget url
 wget https://www.gurshobit.com/abc.txt
 
+#Install New Package or Update Existing Package (Softwares Packages)
+#For Ubuntu
+#apt-get install package_name
+apt-get install nginx
+apt-get update
+
+#For Centos
+#yum install package_name
+apt-get install nginx
+yum update
+
 #Clear Command Console
 clear
 
 #Command Line History
 history
+
+#Compute MD5 hash For File or String
+md5sum file_namme.txt
 
 #Find any file
 locate file_name.txt
@@ -86,6 +110,9 @@ mkdir --help
 
 #Display any string
 echo 'Hello World'
+
+#Display Date of System
+date
 
 #Shutdown System
 shutdown
