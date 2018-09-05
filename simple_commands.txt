@@ -66,8 +66,11 @@ df -h
 #wget url
 wget https://www.gurshobit.com/abc.txt
 
-#Clear Console
+#Clear Command Console
 clear
+
+#Command Line History
+history
 
 #Find any file
 locate file_name.txt
