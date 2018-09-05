@@ -1,0 +1,80 @@
+#Create New Folder
+mkdir folder_name
+
+#List Contents of Folder
+ls
+
+#Enter any Directory or Folder
+cd folder_name 
+
+#Create New File
+touch file_name.txt
+
+#Copy Files or Folders
+#Copy Single File
+cp file_name.txt file_name1.txt
+
+#Copy Single Folder
+cp -a folder_name new_foldername
+
+#All Files in Folder
+cp -pr ./folder_name/ new_folder_name
+
+#Move a File Content or Rename a File
+mv file_name1.txt new_file_name.txt
+
+#Edit File using Command Line
+nano file_name.txt
+
+#Change File Permissions
+chmod 755 file_name.txt
+
+#Change Ownership of File
+#chown username file_name.txt
+chown gurshobit file_name.txt
+
+#Remove Directory or Folder or file
+rmdir folder_name2
+rm file_name2.txt
+
+#Create new User
+#sudo useradd username
+sudo useradd user1
+
+#Create New User with Home Directory
+#sudo useradd -m username
+sudo useradd user2
+
+#Change Current User Password
+passwd
+
+#Change Particular User Password
+sudo password user2
+
+#Check Memory of System
+free -h
+
+#Download a File Via Command Line
+#wget url
+wget https://www.gurshobit.com/abc.txt
+
+#Clear Console
+clear
+
+#Find any file
+locate file_name.txt
+
+#Find File by Base Name
+locate -b file_name
+
+#open help manual for any command
+#man command_name
+#command_name --help
+man mkdir
+mkdir --help
+
+#Shutdown System
+shutdown
+
+#Reboot System
+shutdown -r
