@@ -26,7 +26,10 @@ cp -pr ./folder_name/ new_folder_name
 mv file_name1.txt new_file_name.txt
 
 #Edit File using Command Line
+#nano Editor
 nano file_name.txt
+#vi Editor
+vi file_name.txt
 
 #Change File Permissions
 chmod 755 file_name.txt
@@ -55,6 +58,9 @@ sudo password user2
 
 #Check Memory of System
 free -h
+
+#Check Disk Space
+df -h
 
 #Download a File Via Command Line
 #wget url
